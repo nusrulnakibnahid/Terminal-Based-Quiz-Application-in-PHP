@@ -50,7 +50,7 @@ echo "\n You scored $score out of " . count($questions) . "\n";
 if($score == count($questions)){
 
     echo "Excellent Job Man! \n";
-}elseif ($score > ($totalQuestions / 2)) {
+}elseif ($score > 1) {
     echo "Very Good effort!\n";
 } else {
     echo "Opps! Better luck next time!\n";
